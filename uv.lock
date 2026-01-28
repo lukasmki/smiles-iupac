@@ -169,7 +169,7 @@ wheels = [
 [[package]]
 name = "batchata"
 version = "0.4.7"
-source = { editable = "../batchata" }
+source = { git = "https://github.com/lukasmki/batchata.git#051e3748ea581e221e3aedb47f4f004315e4038a" }
 dependencies = [
     { name = "anthropic" },
     { name = "google-genai" },
@@ -179,27 +179,6 @@ dependencies = [
     { name = "pytest-asyncio" },
     { name = "rich" },
     { name = "tokencost" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "anthropic", specifier = ">=0.57.1" },
-    { name = "google-genai", specifier = ">=0.8.0" },
-    { name = "openai", specifier = ">=1.97.0" },
-    { name = "pydantic", specifier = ">=2.0" },
-    { name = "pypdf", specifier = ">=5.8.0" },
-    { name = "pytest-asyncio", specifier = ">=1.1.0" },
-    { name = "rich", specifier = ">=14.0.0" },
-    { name = "tokencost", specifier = ">=0.1.24" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "pdoc", specifier = ">=15.0.4" },
-    { name = "pytest", specifier = ">=8.4.1" },
-    { name = "pytest-cov", specifier = ">=6.2.1" },
-    { name = "pytest-xdist", specifier = ">=3.6.1" },
-    { name = "python-dotenv", specifier = ">=1.1.1" },
 ]
 
 [[package]]
@@ -1773,7 +1752,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "batchata", editable = "../batchata" },
+    { name = "batchata", git = "https://github.com/lukasmki/batchata.git" },
     { name = "datasets", specifier = ">=4.5.0" },
     { name = "ipykernel", specifier = ">=7.1.0" },
     { name = "ipywidgets", specifier = ">=8.1.8" },

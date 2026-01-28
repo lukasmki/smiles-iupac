@@ -16,4 +16,4 @@ java --version
 
 ## Usage
 
-Check out the notebook!
+Check out the [notebook](smiles-iupac.ipynb)!

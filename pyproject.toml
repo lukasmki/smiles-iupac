@@ -15,4 +15,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-batchata = { path = "../batchata", editable = true }
+batchata = { git = "https://github.com/lukasmki/batchata.git" }
