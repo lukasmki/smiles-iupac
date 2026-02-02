@@ -12,4 +12,6 @@ wheels/
 # Environment variables
 .env
 
-data/
+# collected data
+data/**
+!data/*.csv

@@ -13,6 +13,7 @@ dependencies = [
     "py2opsin>=1.1.0",
     "python-dotenv>=1.2.1",
     "rdkit>=2025.9.4",
+    "seaborn>=0.13.2",
 ]
 
 [tool.uv.sources]
